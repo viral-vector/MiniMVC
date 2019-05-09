@@ -1,6 +1,6 @@
 {
     "name": "viral-vector/minimvc",
-    "description": "Small, quick php framework as a C++ extension",
+    "description": "Small, quick php framework",
     "keywords": ["framework", "php", "mvc", "quick", "slim"],
     "type": "project",
     "minimum-stability": "dev",

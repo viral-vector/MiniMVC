@@ -32,7 +32,7 @@ class HomeController extends Controller
      */
     function hello(\Mini\Routing\Response $response, $id)
     {  
-        return $response->download(mini_path('storage', 'sample.txt'), 'skunk.mp3');
+        return $response->download(mini_path('storage', 'sample.txt'), 'mini.rtf');
         // return $response->json(['min' => 'is great: ' . $id]);
  
         // return "<div><h1>Welcome to Mini Framework! Hello World: {$id} </h1></div>";
