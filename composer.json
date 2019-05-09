@@ -1,0 +1,27 @@
+{
+    "name": "viral-vector/minimvc",
+    "description": "Small, quick php framework as a C++ extension",
+    "keywords": ["framework", "php", "mvc", "quick", "slim"],
+    "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/var/www/MiniMVCFrame" 
+        }
+    ],
+
+    "require": {
+    	"php": ">=7.0",
+        "viral-vector/minimvcframe": "@dev"
+    },
+
+    "autoload": {
+    	"psr-4": {
+    		"App\\": "app/"
+    	}
+    }
+}

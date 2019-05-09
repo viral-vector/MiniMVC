@@ -1,0 +1,9 @@
+vendor/
+.idea/
+.vscode/
+node_modules/
+.htpasswd
+.env.*.php
+.env.php
+.env
+composer.lock
